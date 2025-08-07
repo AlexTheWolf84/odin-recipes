@@ -30,3 +30,15 @@ Main webpage menu image:
 
 *Argentine cuisine recipes and pictures*
 [Recetas Argentinas](https://recetasargentinas.org/)
+
+# Odin-Recipes Project (2025-08-07)
+
+## Add CSS Styles
+
+I added CSS styles to the main webpage HTML document (index.html). The recipes HTML documents aren't yet stylized.
+
+Files modified / uploaded:
+
+- css folder containing the styles.css file.
+- Modified index.html with external stylesheet file linked.
+- NormalMinor adjustments in the index.html adding some divs.
