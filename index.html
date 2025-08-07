@@ -4,25 +4,38 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Odin's Recipes</title>
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <h1>Odin's Recipes 🍲</h1>
-         <img src="./img/menu.jpg" alt="Odin's Menu" width="400">
-        <h2>Don't cook boring!</h2>
-        <p>Aren't you bored of the same meals day by day? 😶 We have an offer to you: <strong>Argentine traditional dishes!</strong> Easy to cook
-        dishes from the end of the world to your table! 🌎 <br>We have a menu for you to explore new culinary horizon, and to have fun cooking something new 
-        than that boring mac &amp; cheese. Take a look at the meals we brought to you:</p>
-        <h3>Traditional Meals 👨‍🍳👩‍🍳</h3>
-        <ul>
-            <li><a href="./recipes/argentine-locro.html" target="_self">Argentine Locro</a></li>
-            <li><a href="./recipes/beer-chicken.html" target="_self">Beer Chicken</a></li>
-            <li><a href="./recipes/romana-hake-fillets.html" target="_self">Romana Hake Fillets</a></li>
-        </ul>
-        <h3>Traditional Desserts 👨‍🍳👩‍🍳</h3>
-        <ul>
-            <li><a href="./recipes/dulce-leche.html" target="_self">Argentine Dulce de Leche</a></li>
-            <li><a href="./recipes/rice-pudding.html" target="_self">Rice Pudding</a></li>
-            <li><a href="./recipes/mantecol.html" target="_self">Homemade Mantecol</a></li>
-        </ul>
+        <div id="container">
+            <h1 class="main-title">Odin's Recipes 🍲</h1>
+            
+            <div class="intro">
+                <h2>Don't cook boring!</h2>
+                <img src="./img/menu.jpg" alt="Menu Picture" width="150">
+                <p>Aren't you bored of the same meals day by day? 😶 We have an offer to you: <strong>Argentine traditional dishes!</strong> Easy to cook
+                dishes from the end of the world to your table! 🌎 We have a menu for you to explore new culinary horizon, and to have fun cooking something new 
+                than that boring mac &amp; cheese. <em>Take a look at the meals we brought to you:</em></p>
+            </div>
+           
+            <div class="card-container">
+                <div class="card">
+                <h3>Traditional Meals 👨‍🍳👩‍🍳</h3>
+                <ul>
+                    <li><a href="./recipes/argentine-locro.html" target="_self">Argentine Locro</a></li>
+                    <li><a href="./recipes/beer-chicken.html" target="_self">Beer Chicken</a></li>
+                    <li><a href="./recipes/romana-hake-fillets.html" target="_self">Romana Hake Fillets</a></li>
+                </ul>
+                </div>
+                <div class="card">
+                    <h3>Traditional Desserts 👨‍🍳👩‍🍳</h3>
+                    <ul>
+                        <li><a href="./recipes/dulce-leche.html" target="_self">Argentine Dulce de Leche</a></li>
+                        <li><a href="./recipes/rice-pudding.html" target="_self">Rice Pudding</a></li>
+                        <li><a href="./recipes/mantecol.html" target="_self">Homemade Mantecol</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

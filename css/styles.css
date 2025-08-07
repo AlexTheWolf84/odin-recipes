@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    /* outline: 1px solid red; */
+}
+
+#container {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.main-title {
+    color: rgb(10, 10, 71);
+    font-size: 3em;
+    text-align: center;
+}
+
+.intro {
+    background-color: darkred;
+    border-radius: 25px 0 25px 0;
+    color: rgb(255, 255, 255);
+    margin: 25px auto;
+    padding: 15px;
+    text-align: center;
+    width: 80%;
+}
+
+.intro h2, 
+.intro p {
+    margin: 10px auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.intro h2 {
+    font-size: 35px;
+    text-align: center;
+    margin: 15px auto 0;
+    padding: 10px;
+}
+
+.intro p {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.intro img {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    float: right;
+    margin: 24px 25px;
+    width: 150px;
+}
+
+/* Food Cards */
+
+.card-container {
+    margin: auto;
+    width: 80%;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 2px solid darkred;
+    border-radius: 7px;
+    float: left;
+    margin: 25px auto;
+    padding: 15px;
+    text-align: center;
+    min-width: 100%;
+}
+
+.card h3 {
+    color: rgb(10, 10, 71);
+    font-size: 1.3em;
+}
+
+.card ul {
+    list-style: none;
+    margin: 25px auto;
+    padding: 5px 15px;
+}
+
+.card ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px 15px;
+    padding: 5px;
+}
+
+/* Link Styles */
+
+.card ul li a,
+.card ul li a:visited {
+    color: darkred;
+    text-decoration: none;
+}
+
+.card ul li a:hover {
+/* .card ul li a:visited */
+    color: rgb(10, 10, 71);
+}
