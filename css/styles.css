@@ -12,9 +12,32 @@ html {
     border-radius: 15px;
     display: inline-block;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0 auto;
+    margin: 25px auto;
     padding: 10px;
     width: 100%;
+    height: 100vh;
+}
+
+.go-home {
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1em;
+    padding: 12px 12px;
+    position: fixed;
+    text-align: center;
+    top: 16px;
+    left: 10px;
+}
+
+a.go-home {
+    background-color: darkred;
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+a.go-home:hover {
+    filter: grayscale(1);
+    opacity: 0.7;
 }
 
 .main-title {
@@ -28,75 +51,94 @@ html {
     border-radius: 25px 0 25px 0;
     color: rgb(255, 255, 255);
     margin: 25px auto;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    width: 80%;
+    width: 70%;
 }
 
 .intro h2, 
 .intro p {
-    margin: 10px auto;
+    margin: 25px auto;
     padding: 20px;
     text-align: justify;
 }
 
 .intro h2 {
     font-size: 35px;
-    text-align: center;
-    margin: 15px auto 0;
-    padding: 10px;
+    text-align: left;
+    /* margin: 15px auto; */
+    padding: 20px;
 }
 
 .intro p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: justify;
+    width: 100%;
 }
 
-.intro img {
-    border: 2px solid #fff;
-    border-radius: 5px;
-    float: right;
-    margin: 24px 25px;
-    width: 150px;
+/* Food Photo */
+
+.food-photo {
+    margin: 25px auto;
+    padding: 15px;
+    text-align: center;
+    width: 80%;
 }
 
-/* Food Cards */
+.food-photo img {
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 15%;
+    padding: 5px;
+}
+
+/* Menu Cards */
 
 .card-container {
-    margin: auto;
-    width: 80%;
+    margin: 25px auto;
+    padding: 0 25px;
+    text-align: center;
+    width: 70%;
 }
 
 .card {
     background-color: #f9f9f9;
     border: 2px solid darkred;
     border-radius: 7px;
-    float: left;
     margin: 25px auto;
     padding: 15px;
-    text-align: center;
-    min-width: 100%;
 }
 
 .card h3 {
     color: rgb(10, 10, 71);
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .card ul {
     list-style: none;
     margin: 25px auto;
-    padding: 5px 15px;
+    padding: 25px;
 }
 
 .card ul li {
     display: inline-block;
     font-size: 1.2em;
-    margin: 10px 15px;
-    padding: 5px;
+    margin: 10px;
+    padding: 15px;
 }
 
-/* Link Styles */
+/* Recipe Cards */
+
+.recipe-ingredients,
+.recipe-steps {
+    background-color: #f9f9f9;
+    border: 2px solid darkred;
+    border-radius: 7px;
+    margin: 25px auto;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Card Link Styles */
 
 .card ul li a,
 .card ul li a:visited {
@@ -104,7 +146,43 @@ html {
     text-decoration: none;
 }
 
-.card ul li a:hover {
-/* .card ul li a:visited */
+.card ul li a:hover, 
+.card ul li a:visited {
     color: rgb(10, 10, 71);
+}
+
+/* Footer */
+
+#footer {
+    background-color: rgb(10, 10, 71);
+    border-radius: 25px 25px 0 0;
+    color: #f9f9f9;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#footer ul li {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#footer h2 {
+    font-size: 2em;
+}
+
+#footer ul li a {
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+}
+
+#footer ul li a:hover {
+    color: rgb(107, 255, 243);
 }
