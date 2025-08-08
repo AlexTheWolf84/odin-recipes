@@ -52,4 +52,4 @@ I made some small changes to the CSS to align the container boxes of the recipe 
 
 - Done recipe's CSS styles.
 - Done minor adjustments to the CSS styles.
-- Added (a fixed) fixed link(s) to facilitate navigation to the homepage.
+- Added a fixed link to facilitate navigation within the website.
